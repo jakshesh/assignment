@@ -1,0 +1,91 @@
+/* Name - Sobhavat Jakshesh | Student id - 8911231*/
+/* Part 1 */
+body {
+    font: normal normal normal 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    max-width: 1400px;
+    background-color: bisque;
+}
+
+/* Part 2*/
+header {
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: azure;
+}
+
+
+h1,
+h2 {
+    color: #a14407;
+    font-variant: small-caps;
+}
+
+footer p {
+    font-size: 14px;
+    color: #424141;
+    text-align: center;
+}
+
+/* Part 3*/
+
+main {
+    float: left;
+    width: 900px;
+    height: 115vh;
+}
+
+aside {
+    float: right;
+    width: 250px;
+    height: 35vh;
+    margin: 15px;
+    padding-left: 200px;
+}
+
+
+footer {
+    border: 3px solid black;
+    border-radius: 15px;
+    clear: both;
+    background-color: azure;
+
+}
+
+.structural {
+    margin: 15px;
+    padding: 10px;
+}
+
+
+/* Part 4 */
+.mainimg {
+    border: 2px solid #333;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Part 5*/
+ul li {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: forestgreen;
+}
+
+ul>li>a:hover {
+    color: #e73503;
+}
